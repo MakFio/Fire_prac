@@ -28,6 +28,7 @@ outputs/runs/yolov8m_dfire/
 outputs/runs/yolov10s_dfire/
 outputs/runs/yolov11n_dfire/
 outputs/runs/rtdetr_l_dfire/
+outputs/eval/*/predictions.json
 
 # Веса Faster R-CNN - см. README (OneDrive)
 outputs/runs/frcnn_dfire/best.pt
