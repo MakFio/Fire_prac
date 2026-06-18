@@ -37,6 +37,10 @@ outputs/runs/frcnn_dfire/epoch_5.pt
 # Лучшая модель - см. README (OneDrive)
 models/best_model/weights.pt
 
+# Экспортированные в Onnx и Torchscript
+models/exported/weights.onnx
+models/exported/weights.torchscript
+
 # MLflow runs (большие артефакты)
 outputs/mlruns/191159999532194559/
 outputs/mlruns/868163949417384445/
