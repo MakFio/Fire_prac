@@ -1,0 +1,51 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "export": {
+    "onnx": {
+      "path": "D:\\MLPrac\\models\\best_model\\weights.onnx",
+      "size_mb": 103.6,
+      "export_time_s": 2.1
+    },
+    "torchscript": {
+      "path": "D:\\MLPrac\\models\\best_model\\weights.torchscript",
+      "size_mb": 103.9,
+      "export_time_s": 0.9
+    }
+  },
+  "benchmark": [
+    {
+      "Формат": "PyTorch (.pt)",
+      "Размер_МБ": 52.0,
+      "Latency_мс": 10.5,
+      "Latency_std_мс": 1.45,
+      "mAP@0.5": 0.7444,
+      "mAP@0.5:0.95": 0.4327,
+      "Precision": 0.7458,
+      "Recall": 0.6731,
+      "ΔmAP50_vs_PT": 0.0
+    },
+    {
+      "Формат": "ONNX",
+      "Размер_МБ": 103.6,
+      "Latency_мс": 12.49,
+      "Latency_std_мс": 1.01,
+      "mAP@0.5": 0.7397,
+      "mAP@0.5:0.95": 0.4261,
+      "Precision": 0.7284,
+      "Recall": 0.6841,
+      "ΔmAP50_vs_PT": -0.0047
+    },
+    {
+      "Формат": "TorchScript",
+      "Размер_МБ": 103.9,
+      "Latency_мс": 11.1,
+      "Latency_std_мс": 0.95,
+      "mAP@0.5": 0.7397,
+      "mAP@0.5:0.95": 0.426,
+      "Precision": 0.7282,
+      "Recall": 0.6841,
+      "ΔmAP50_vs_PT": -0.0047
+    }
+  ]
+}
