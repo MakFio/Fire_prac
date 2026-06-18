@@ -1,0 +1,41 @@
+# Ядро
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+# YOLO + RT-DETR
+ultralytics==8.3.221
+sahi==0.12.1
+supervision==0.28.0
+
+# Деплой
+fastapi==0.136.3
+uvicorn[standard]==0.34.3
+streamlit==1.46.0
+python-multipart==0.0.22
+sqlalchemy==2.0.41
+aiosqlite==0.21.0
+mlflow==3.1.0
+
+# Анализ данных и визуализация
+pandas==2.2.3
+numpy==2.1.3
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly==6.1.2
+Pillow==11.2.1
+opencv-python==4.13.0.92
+opencv-python-headless==4.11.0.86
+scikit-learn==1.6.1
+scipy==1.15.3
+
+# Ноутбуки
+jupyter==1.1.1
+ipywidgets==8.1.7
+
+# Прочее
+tqdm==4.67.1
+PyYAML==6.0.2
+python-dotenv==1.1.0
+requests==2.32.3

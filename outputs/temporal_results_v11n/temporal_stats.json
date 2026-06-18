@@ -1,0 +1,32 @@
+[
+  {
+    "window_W": 1,
+    "total_alerts": 287,
+    "total_frames": 13609,
+    "alerts_per_video": 2.87
+  },
+  {
+    "window_W": 3,
+    "total_alerts": 160,
+    "total_frames": 13609,
+    "alerts_per_video": 1.6
+  },
+  {
+    "window_W": 5,
+    "total_alerts": 119,
+    "total_frames": 13609,
+    "alerts_per_video": 1.19
+  },
+  {
+    "window_W": 7,
+    "total_alerts": 95,
+    "total_frames": 13609,
+    "alerts_per_video": 0.95
+  },
+  {
+    "window_W": 10,
+    "total_alerts": 76,
+    "total_frames": 13609,
+    "alerts_per_video": 0.76
+  }
+]

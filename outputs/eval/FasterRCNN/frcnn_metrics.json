@@ -1,0 +1,10 @@
+{
+  "Модель": "Faster R-CNN ResNet50",
+  "mAP@0.5": 0.6872,
+  "mAP@0.5:0.95": null,
+  "Precision": 0.3228,
+  "Recall": 0.8614,
+  "Latency_ms": 20.6,
+  "Weights_MB": 158.1,
+  "Weights": "D:\\MLPrac\\outputs\\runs\\frcnn_dfire\\best.pt"
+}

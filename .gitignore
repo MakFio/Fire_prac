@@ -1,0 +1,54 @@
+# Виртуальные окружения
+venv_yolo/
+venv_mmdet/
+
+# Датасет D-Fire
+# Ссылка: https://github.com/gaia-solutions-on-demand/DFireDataset
+D-Fire/train/images/
+D-Fire/train/labels/
+D-Fire/train/labels.cache
+D-Fire/test/images/
+D-Fire/test/labels/
+D-Fire/test/labels.cache
+
+# Видео
+# Ссылка: https://1drv.ms/f/c/c0bd25b6b048b01d/EhT2Jy6L-YlGvZv-gXH2SnYBENQsnUW96LpZtv_6PngjYQ
+video/
+
+# Веса YOLO
+# Загружаются автоматически через ultralytics при запуске
+src/yolov8m.pt
+src/yolov10s.pt
+src/yolo11n.pt
+src/rtdetr-l.pt
+
+
+# Обученные веса моделей (выгружены на OneDrive — см. README)
+outputs/runs/yolov8m_dfire/
+outputs/runs/yolov10s_dfire/
+outputs/runs/yolov11n_dfire/
+outputs/runs/rtdetr_l_dfire/
+
+# Веса Faster R-CNN - см. README (OneDrive)
+outputs/runs/frcnn_dfire/best.pt
+outputs/runs/frcnn_dfire/epoch_5.pt
+
+# Лучшая модель - см. README (OneDrive)
+models/best_model/weights.pt
+
+# MLflow runs (большие артефакты)
+outputs/mlruns/191159999532194559/
+outputs/mlruns/868163949417384445/
+
+# База данных
+*.db
+
+# Системные файлы
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+*.egg-info/
+.pytest_cache/
+.idea/

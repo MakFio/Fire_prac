@@ -1,0 +1,12 @@
+model: rtdetr-l.pt
+data: D:/MLPrac/configs/dfire.yaml
+epochs: 15
+imgsz: 640
+batch: 16
+optimizer: AdamW
+lr0: 0.001
+project: D:/MLPrac/outputs/runs
+name: rtdetr_l_dfire
+device: 0
+val: true
+plots: true

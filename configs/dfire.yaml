@@ -1,0 +1,10 @@
+path: D:/MLPrac
+
+train: data/splits/train.txt   # 14 638 изображений
+val:   data/splits/val.txt     #  2 583 изображения
+test:  data/splits/test.txt    #  4 306 изображений
+
+nc: 2
+names:
+  0: fire
+  1: smoke

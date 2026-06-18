@@ -1,0 +1,8 @@
+model: /app/models/best_model/weights.pt
+nc: 2
+names:
+  0: fire
+  1: smoke
+conf: 0.25
+iou: 0.45
+imgsz: 640

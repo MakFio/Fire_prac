@@ -1,0 +1,5 @@
+﻿Модель,mAP@0.5,mAP@0.5:0.95,Precision,Recall,Latency_ms,Eval_time_min,Weights
+YOLOv8m,0.7498,0.4233,0.7331,0.6881,2.65,0.6,D:\MLPrac\outputs\runs\yolov8m_dfire\weights\best.pt
+YOLOv11n,0.7404,0.4214,0.7388,0.6664,0.68,0.4,D:\MLPrac\outputs\runs\yolov11n_dfire\weights\best.pt
+YOLOv10s,0.7302,0.4137,0.7255,0.6683,1.17,0.4,D:\MLPrac\outputs\runs\yolov10s_dfire\weights\best.pt
+RT-DETR-L,0.6744,0.3754,0.6752,0.6731,8.11,1.15,D:\MLPrac\outputs\runs\rtdetr_l_dfire\weights\best.pt

@@ -1,0 +1,14 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir \
+    streamlit==1.46.0 \
+    requests==2.32.3 \
+    Pillow==11.2.1 \
+    pandas==2.2.3
+
+COPY service/frontend ./service/frontend
+
+CMD ["streamlit", "run", "service/frontend/app.py", \
+     "--server.port=8501", "--server.address=0.0.0.0"]

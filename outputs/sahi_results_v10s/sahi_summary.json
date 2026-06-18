@@ -1,0 +1,12 @@
+{
+  "model": "D:\\MLPrac\\outputs\\runs\\yolov10s_dfire\\weights\\best.pt",
+  "images_tested": 200,
+  "base": {
+    "avg_detections": 0.02,
+    "avg_latency_ms": 20.15
+  },
+  "sahi": {
+    "avg_detections": 0.13,
+    "avg_latency_ms": 80.62
+  }
+}
