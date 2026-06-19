@@ -185,4 +185,4 @@ if __name__ == "__main__":
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader()
         writer.writerows(rows)
-    print(f"  CSV  → {csv_path}")
+    print(f"  CSV  -> {csv_path}")

@@ -11,4 +11,5 @@ RUN pip install --no-cache-dir \
 COPY service/frontend ./service/frontend
 
 CMD ["streamlit", "run", "service/frontend/app.py", \
-     "--server.port=8501", "--server.address=0.0.0.0"]
+     "--server.port=8501", "--server.address=0.0.0.0", \
+     "--server.maxUploadSize=512"]

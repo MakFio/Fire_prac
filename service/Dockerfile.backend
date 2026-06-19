@@ -5,6 +5,9 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libglib2.0-0 \
     libgl1 \
+    libgstreamer1.0-0 \
+    libgstreamer-plugins-base1.0-0 \
+    ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --no-cache-dir \
@@ -20,7 +23,8 @@ RUN pip install --no-cache-dir \
     "uvicorn[standard]==0.34.3" \
     python-multipart==0.0.22 \
     aiosqlite==0.21.0 \
-    Pillow==11.2.1
+    Pillow==11.2.1 \
+    numpy>=1.24
 
 COPY service/api ./service/api
 COPY models      ./models
